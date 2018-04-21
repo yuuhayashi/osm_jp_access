@@ -2,9 +2,9 @@
 OpenStreetMap Japan Key:access draft
 
 
-[日本のaccessキー ドラフト版](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)
+ * [日本のaccessキー ドラフト版](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
 
-![CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CC0_button.svg/88px-CC0_button.svg.png)
+  ![CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CC0_button.svg/88px-CC0_button.svg.png)
 
 
 ## 参考
