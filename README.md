@@ -61,7 +61,7 @@ access=*
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ goods:normal 「普貨」　
 　　　　　　　　　┃
-　　　　　　　　　┣━ motor_car:l,motor_car:xm,motor_car:xl　「大型等」
+　　　　　　　　　┣━ motor_car:l=*,motor_car:xm=*,motor_car:xl=*　「大型等」
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ motor_car:l 「大型」 大型自動車
 　　　　　　　　　┃　　┃　　┃
@@ -141,19 +141,23 @@ access=*
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ psv:ms 「普乗」 普通乗用自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ psv 「乗用」 専ら人を運搬する構造の
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
-　　　　　　　　　┃
-　　　　　　　　　┣━ 
+　　　　　　　　　┗━ psv 「乗用」 専ら人を運搬する構造の自動車
+　　　　　　　　　　　　┃
+　　　　　　　　　　　　┣━ psv:m 「中乗」 中型乗用自動車
+　　　　　　　　　　　　┃
+　　　　　　　　　　　　┣━ bus 「バス」 
+　　　　　　　　　　　　┃　　┃
+　　　　　　　　　　　　┃　　┗━ psv:l 「大乗」 大型乗用自動車
+　　　　　　　　　　　　┃　　　　　┃
+　　　　　　　　　　　　┃　　　　　┣━ tourist_bus 「観光バス」
+　　　　　　　　　　　　┃　　　　　┃
+　　　　　　　　　　　　┃　　　　　┣━ bus:l 「大型バス」
+　　　　　　　　　　　　┃　　　　　┃
+　　　　　　　　　　　　┃　　　　　┗━ minibus 「マイクロ」
+　　　　　　　　　　　　┃　　　　　　　　┃
+　　　　　　　　　　　　┃　　　　　　　　┗━ psv:xm 「特定中乗」 特定中型乗用自動車
+　　　　　　　　　　　　┃
+　　　　　　　　　　　　┣━ psv:ms 「準中乗」 準中型乗用自動車
+　　　　　　　　　　　　┃
+　　　　　　　　　　　　┗━ psv:normal 「普乗」 普通乗用自動車
 ```
