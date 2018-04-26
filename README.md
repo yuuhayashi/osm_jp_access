@@ -15,59 +15,59 @@ OpenStreetMap Japan Key:access draft
 
 
 ```
-access=*
+1. access=*
 ┃
-┣━ foot=*   歩行者
+┣━ 2. foot=*   歩行者
 ┃
-┗━ vehicle=*    車両
+┗━ 3. vehicle=*    車両
 　　　┃
-　　　┣━ bicycle=*     自転車
+　　　┣━ 4. bicycle=*     自転車
 　　　┃
-　　　┣━ carriage=*    軽車両
+　　　┣━ 5. carriage=*    軽車両
 　　　┃
-　　　┗━ motor_vehicle 動力付き車両
+　　　┗━ 6. motor_vehicle 動力付き車両
 　　　　　　┃
-　　　　　　┣━ trollerbus 「トロリー」 トロリーバス
+　　　　　　┣━ 7. tram 路面電車
 　　　　　　┃
-　　　　　　┣━ tram 路面電車
+　　　　　　┣━ 8. trollerbus 「トロリー」 トロリーバス
 　　　　　　┃
-　　　　　　┗━ motor_car 自動車
+　　　　　　┗━ 9. motor_car 自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ hgv_caravan 「けん引」 重被牽引車をけん引しているけん引自動車
+　　　　　　　　　┣━ 10. hgv_caravan 「けん引」 重被牽引車をけん引しているけん引自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ disabled 「標章車」 高齢運転者等、標章自動車
+　　　　　　　　　┣━ 11. disabled 「標章車」 高齢運転者等、標章自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ agricultural 「小特」 小型特殊自動車
+　　　　　　　　　┣━ 12. agricultural 「小特」 小型特殊自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ route_bus   「路線バス」　路線定期運行の用に供する自動車
+　　　　　　　　　┣━ 13. route_bus   「路線バス」　路線定期運行の用に供する自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ taxi=*      「タクシー」　一般乗用旅客自動車運送事業の用に供する自動車
+　　　　　　　　　┣━ 14. taxi=*      「タクシー」　一般乗用旅客自動車運送事業の用に供する自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ moped=*,mofa=*,motorcycle=*「二輪」 二輪の自動車及び原動機付自転車
+　　　　　　　　　┣━ 15. moped=*,mofa=*,motorcycle=*「二輪」 二輪の自動車及び原動機付自転車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ motorcycle　「自二輪」　大型自動二輪車、普通自動二輪車
+　　　　　　　　　┃　　┣━ 16. motorcycle　「自二輪」　大型自動二輪車、普通自動二輪車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┗━ moped　「小二輪」　小型二輪車、原動機付自転車
+　　　　　　　　　┃　　┗━ 17. moped　「小二輪」　小型二輪車、原動機付自転車
 　　　　　　　　　┃　　　　　┃
-　　　　　　　　　┃　　　　　┗━ mofa　「原付」　原動機付自転車
+　　　　　　　　　┃　　　　　┗━ 18. mofa　「原付」　原動機付自転車
 　　　　　　　　　┃
-　　　　　　　　　┣━ hgv=*,goods=*  「貨物」　
+　　　　　　　　　┣━ 19. hgv=*,goods=*  「貨物」　
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ hgv:l     「大貨」　
+　　　　　　　　　┃　　┣━ 20. hgv:l     「大貨」　
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ goods:m   「中貨」　
+　　　　　　　　　┃　　┣━ 21. goods:m   「中貨」　
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ goods:ms  「準中貨」　
+　　　　　　　　　┃　　┣━ 22. goods:ms  「準中貨」　
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┗━ goods:normal 「普貨」　
+　　　　　　　　　┃　　┗━ 23. goods:normal 「普貨」　
 　　　　　　　　　┃
-　　　　　　　　　┣━ motor_car:l=*,motor_car:xm=*,motor_car:xl=*　「大型等」
+　　　　　　　　　┣━ 24. motor_car:l=*,motor_car:xm=*,motor_car:xl=*　「大型等」
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ motor_car:l 「大型」 大型自動車
+　　　　　　　　　┃　　┣━ 25. motor_car:l 「大型」 大型自動車
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┣━ hgv:l  「大貨」　
+　　　　　　　　　┃　　┃　　┣━ 20. hgv:l  「大貨」　
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┗━ psv:l 「大乗」 大型乗用自動車
+　　　　　　　　　┃　　┃　　┗━ 26. psv:l 「大乗」 大型乗用自動車
 　　　　　　　　　┃　　┃　　　　　┃
 　　　　　　　　　┃　　┃　　　　　┣━ tourist_bus 「観光バス」
 　　　　　　　　　┃　　┃　　　　　┃
