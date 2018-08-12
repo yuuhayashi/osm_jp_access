@@ -229,7 +229,49 @@ OpenStreetMap Japan Key:access draft
  * [matrix.ods](matrix.ods) [PDF](matrix.pdf)  
  
 
-## 
+## World Wide でのタグ構成
 
  * [OpenStreetMap Wiki - JA:Key:access](https://wiki.openstreetmap.org/wiki/JA:Key:access) の[6.1 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
-
+ 
+```
+access=* （カテゴリ: すべての陸上交通）
+┣━ 車両を使わない移動
+┃　　┣━ foot=* （歩行者）
+┃　　┣━ ski=*
+┃　　┣━ inline_skates=*
+┃　　┣━ ice_skates=*
+┃　　┗━ horse=* （乗馬）
+┗━ vehicle=* （カテゴリ: すべての車両)
+　　　┣━ 動力がない車両
+　　　┃　　┣━ 二輪車
+     ┃　　┃　　┗━ bicycle=* （自転車）
+　　　┃　　┗━ 三輪以上
+     ┃　　　　　┣━ carriage=* （馬＋馬車）
+     ┃　　　　　┗━ trailer=* （トレイラー。他の車両が牽引する必要があり、それにも自身の通行制限があります）
+     ┃     　　　　　┗━ caravan=* （[W] キャンピングトレーラー、キャラバンとも呼ばれます）┗
+　　　┗━ motor_vehicle=* （カテゴリ: すべての動力付き車両）
+    　　　　　　┣━ 二輪車
+          　　 ┃　　　┣━ motorcycle=* （オートバイ。二輪の動力付き車両、自動車専用道路を通行可）
+          　　 ┃　　　┣━ moped=* （速度制限付きの原動機付き自転車。例: 多くは50ccエンジンで、最高速度約45km/h）
+          　　 ┃　　　┗━ mofa=* ("低速モペット"、通常は最大設計速度25km/h)
+    　　　　　　┣━ 三輪以上
+          　　 ┃　　　┣━motorcar=* 自動車
+          　　 ┃　　　┃　　　┗━ motorhome=* （[W] キャンピングカー）
+    　　　　　　┃　　　┣━ tourist_bus=* ツアーバス、観光バス（路線バスでないもの）
+    　　　　　　┃　　　┣━ goods=* （小型貨物トラック、最大積載量3.5トン未満）
+    　　　　　　┃　　　┣━ hgv=* （大型貨物トラック、最大積載量3.5トン以上）
+    　　　　　　┃　　　┣━ agricultural=* （農耕用動力付き車両（トラクターなど）、追加の制限事項があります（速度制限25km/hなど））
+    　　　　　　┃　　　┣━ atv=* バギー （幅が50インチ（1.27m）以下に制限されています）提案中です。代わりにmaxwidth=1.27を使用したほうがよいかもしれません。
+    　　　　　　┃　　　┗━ snowmobile=*
+    　　　　　　┗━ 用途別
+          　　 　　　　┣━psv=* （乗合自動車）
+          　　 　　　　┣━bus=* （乗合自動車として使われる大型バス）
+          　　 　　　　┣━minibus=* （乗合自動車として使われる小型バス）
+          　　 　　　　┣━share_taxi=* （要求に応じて輸送する小型バス）
+　          　　 　　　┣━taxi=* （タクシー）
+          　　 　　　　┣━hov=* （相乗り自動車、2人以上が同乗した車両（地域によって異なる））
+          　　 　　　　┣━car_sharing=* （カーシェアリングサービス）
+          　　 　　　　┣━emergency=* （カテゴリー: 緊急車両。救急車、消防車、パトカーなど）
+          　　 　　　　┣━hazmat=* （危険物搭載車両）
+          　　 　　　　┗━disabled=* （身体障害者標識や、その他の障害者向けの許可。通行制限から除外するために交通標識に使用されます。ただし、駐車に関するものを除く）
+```
