@@ -1,6 +1,5 @@
 # osm_jp_access
 
-  ![CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CC0_button.svg/88px-CC0_button.svg.png)
 -------
 
 OpenStreetMap Japan Key:access draft
@@ -294,3 +293,6 @@ access=* （カテゴリ: すべての陸上交通）
     - 「大型等」→  motor_car:l=*,motor_car:xm=*,motor_car:xl=*
     - 「貨物」→  hgv=*,goods=*
 
+-------
+
+  ![CC0](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CC0_button.svg/88px-CC0_button.svg.png)
