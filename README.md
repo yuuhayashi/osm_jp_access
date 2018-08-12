@@ -9,10 +9,9 @@ OpenStreetMap Japan Key:access draft
 
 ## 参考
 
- * [道路標識、区画線及び道路標示に関する命令 （六）車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)
- 
-規制標識に車両の種類を記載するときは、次の表の上欄に掲げる車両について、それぞれ同表の下欄に掲げる略称を用いることができる。
-	
+ * 日本の道路標識に示される車両種別は [道路標識、区画線及び道路標示に関する命令 （六）車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1) に規定されている。
+ 以下引用
+ 	
  | 略称        | 車両の種類          |
 |:-------------:|:--------------- | 
 | 大型 | 大型自動車 |
@@ -51,6 +50,14 @@ OpenStreetMap Japan Key:access draft
 | けん引 | 重被牽 引車を牽 引している牽 引自動車 |
 | 標章車 | 高齢運転者等標章自動車 |
 
+## 継承関係
+
+ * [車両種別の継承関係(クラス図)](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
+
+![車両種別の継承関係](https://github.com/yuuhayashi/osm_jp_access/raw/master/OSMaccess.class.png)  
+[車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの、
+
+* 
 
  * [OpenStreetMap Wiki - JA:Key:access](https://wiki.openstreetmap.org/wiki/JA:Key:access) の[6.1 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
 
