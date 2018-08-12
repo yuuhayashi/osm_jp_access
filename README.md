@@ -57,6 +57,10 @@ OpenStreetMap Japan Key:access draft
 ![車両種別の継承関係](https://github.com/yuuhayashi/osm_jp_access/raw/master/OSMaccess.class.png)  
 [車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの、
 
+### 継承関係の注意点
+
+ よく誤解されると思われる項目
+
 * 
 
  * [OpenStreetMap Wiki - JA:Key:access](https://wiki.openstreetmap.org/wiki/JA:Key:access) の[6.1 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
