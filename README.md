@@ -55,13 +55,23 @@ OpenStreetMap Japan Key:access draft
  * [車両種別の継承関係(クラス図)](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
 
 ![車両種別の継承関係](https://github.com/yuuhayashi/osm_jp_access/raw/master/OSMaccess.class.png)  
-[車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの、
+上記は、[車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの
 
 ### 継承関係の注意点
 
  よく誤解されると思われる項目
 
+* 「路線バス」は「バス」を継承していません。つまり、「路線バス」は「バス」ではありません。（「大型」でもない）  
+このことにより、「バス」進入禁止どうろでも「路線バス」はその規制を受けません。
+
+* 同様に「タクシー」は「中乗」「普乗」を継承していません。
+
+* 「二輪」と「自二輪」は同一ではありません。タグ的に区別する必要が有ります。
+
+* 「小二輪」は「原付」も含みます。
+
 * 
+
 
 ### マトリックス表
 
