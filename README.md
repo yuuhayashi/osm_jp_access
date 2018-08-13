@@ -2,9 +2,12 @@
 
 -------
 
-OpenStreetMap Japan Key:access draft
+# 提案
 
-提案する日本の「車両別アクセスタグ」
+Draft: OpenStreetMap Japan Key:access - Land-based transportation  
+日本の「車両別アクセスタグ」の提案
+
+[Japan tagging](https://wiki.openstreetmap.org/wiki/Japan_tagging) - [access](https://wiki.openstreetmap.org/wiki/JA:Key:access) - [Land-based transportation / 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
 
 ```
 1. access=*
@@ -230,7 +233,7 @@ OpenStreetMap Japan Key:access draft
 
 ## World Wide でのタグ構成
 
- * [OpenStreetMap Wiki - JA:Key:access](https://wiki.openstreetmap.org/wiki/JA:Key:access) の[6.1 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
+ * [OpenStreetMap Wiki - JA:Key:access](https://wiki.openstreetmap.org/wiki/JA:Key:access) の[6.1 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A) / Land-based transportation - access
  
 ```
 access=* （カテゴリ: すべての陸上交通）
