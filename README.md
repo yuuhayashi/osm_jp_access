@@ -46,9 +46,9 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃　　　　　┃
 　　　　　　　　　┃　　　　　┗━ 18. mofa　「原付」　原動機付自転車
 　　　　　　　　　┃
-　　　　　　　　　┣━ 19. hgv=*,goods=*  「貨物」　
+　　　　　　　　　┣━ 19. goods 「貨物」　
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 20. hgv:l     「大貨」　
+　　　　　　　　　┃　　┣━ 20. goods:l   「大貨」　
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ 21. goods:m   「中貨」　
 　　　　　　　　　┃　　┃
@@ -56,7 +56,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ 23. goods:normal 「普貨」　
 　　　　　　　　　┃
-　　　　　　　　　┣━ 24. motorcar:l=*,motorcar:xm=*,motorcar:xl=*　「大型等」
+　　　　　　　　　┣━ 24. motorcar:xl　「大型等」
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ 25. motorcar:l 「大型」 大型自動車
 　　　　　　　　　┃　　┃　　┃
@@ -80,15 +80,15 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ 32.motorcar:xm 「特定中型」 特定中型自動車
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┣━ 33.hgv:xm  「特定中貨」　特定中型貨物
+　　　　　　　　　┃　　┃　　┣━ 33.goods:xm  「特定中貨」　特定中型貨物
 　　　　　　　　　┃　　┃　　┃
 　　　　　　　　　┃　　┃　　┗━ 34.psv:xm 「特定中乗」 特定中型乗用自動車
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ 35.hgv 「大貨等」[トラックマーク] 　
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┣━ 20.hgv:l  「大貨」　
+　　　　　　　　　┃　　┃　　┣━ 20.goods:l  「大貨」　
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┣━ 34.mortor_car:xl　「大特」 大型特殊自動車
+　　　　　　　　　┃　　┃　　┣━ 34.hgv:xl　「大特」 大型特殊自動車
 　　　　　　　　　┃　　┃　　┃
 　　　　　　　　　┃　　┃　　┗━ 33.hgv:xm 「特定中貨」
 　　　　　　　　　┃　　┃
@@ -98,7 +98,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃
 　　　　　　　　　┣━ 25.motorcar:l 「大型」 大型自動車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 20.hgv:l  「大貨」　
+　　　　　　　　　┃　　┣━ 20.goods:l  「大貨」　
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ 26.psv:l 「大乗」 大型乗用自動車
 　　　　　　　　　┃　　　　　┃
@@ -118,7 +118,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃
 　　　　　　　　　┣━ 32.motorcar:xm 「特定中型」 特定中型自動車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 33.hgv:xm  「特定中貨」　
+　　　　　　　　　┃　　┣━ 33.goods:xm  「特定中貨」　
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ 34.psv:xm 「特定中乗」 特定中型乗用自動車
 　　　　　　　　　┃
@@ -193,11 +193,11 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 | *route_bus*     | 路線バス | 道路運送法（昭和二十六年法律第百八十三号）第九条第一項に規定する一般乗合旅客自動車運送事業者による同法第五条第一項第三号に規定する路線定期運行の用に供する自動車 |
 | *psv:normal*    | 普乗     | 普通乗用自動車 |
 | taxi            | タクシー | 道路運送法第三条第一号ハに規定する一般乗用旅客自動車運送事業の用に供する自動車 |
-| hgv,goods       | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
-| *hgv:l*         | 大貨     | 大型乗用自動車以外の大型自動車 |
+| goods           | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
+| *goods:l*       | 大貨     | 大型乗用自動車以外の大型自動車 |
 | hgv             | 大貨等   | ![truck](55px-Japan_road_sign_503-B_Tracks.png) 大型乗用自動車以外の大型自動車、特定中型乗用自動車以外の特定中型自動車及び大型特殊自動車 |
 | *goods:m*       | 中貨     | 中型乗用自動車以外の中型自動車 |
-| *hgv:xm*        | 特定中貨 | 特定中型乗用自動車以外の特定中型自動車 |
+| *goods:xm*      | 特定中貨 | 特定中型乗用自動車以外の特定中型自動車 |
 | *goods:ms*      | 準中貨   | 準中型乗用自動車以外の準中型自動車 |
 | *goods:normal*  | 普貨     | 普通乗用自動車以外の普通自動車 |
 | hgv_articulated | けん引   | 重被牽 引車を牽 引している牽 引自動車 |
