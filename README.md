@@ -201,6 +201,12 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 | けん引 | 重被牽 引車を牽 引している牽 引自動車 |
 | 標章車 | 高齢運転者等標章自動車 |
 
+ | マーク        | 車両の種類          |
+|:-------------:|:--------------- | 
+| [truck](220px-Japan_road_sign_503-B_Tracks.png) | 大型貨物自動車と特定中型貨物自動車、大型特殊自動車 |
+| [bus](220px-Japan_road_sign_503-B_Buses.png) | 大型乗用自動車と特定中型乗用自動車 |
+
+
 ## 継承関係
 
  * [車両種別の継承関係(クラス図)](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
