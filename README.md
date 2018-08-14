@@ -12,7 +12,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
  	
  | 提案するTag     | 略称     | 車両の種類          |
 |:---------------:|:--------:|:--------------- | 
-| motorcar       | 自動車    | 自動車 |
+| [motorcar](https://wiki.openstreetmap.org/wiki/Key:motorcar)  | 自動車    | 自動車 |
 | *motorcar:l*   | 大型     | 大型自動車 |
 | *motorcar:xl*  | 大型等   | 大型自動車、特定中型自動車及び大型特殊自動車 |
 | *motorcar:m*   | 中型     | 中型自動車 |
@@ -22,13 +22,13 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 | *hgv:x*         | 大特     | 大型特殊自動車 |
 | *motorbike*     | 自二輪   | 大型自動二輪車及び普通自動二輪車（道路交通法施行規則第二条の表備考の規定により二輪の自動車とみなされ、かつ、同表の大型自動二輪車又は普通自動二輪車に区分される三輪の自動車を含む。） |
 | *motorcar:kei* | 軽       | 長さが三・四〇メートル以下、幅が一・四八メートル以下、高さが二・〇〇メートル以下の普通自動車（内燃機関を原動機とする自動車にあつては、総排気量が〇・六六〇リットル以下のものに限る。） |
-| agricultural    | 小特     | 小型特殊自動車 |
-| mofa            | 原付     | 原動機付自転車 |
-| motorcycle      | 二輪     | 二輪の自動車及び原動機付自転車 |
-| moped           | 小二輪   | 道路交通法施行規則第二十四条第一項に規定する小型二輪車及び原動機付自転車 |
-| bicycle         | 自転車   | 普通自転車 |
+| [agricultural](https://wiki.openstreetmap.org/wiki/JA:Key:agricultural) | 小特     | 小型特殊自動車 |
+| [mofa](https://wiki.openstreetmap.org/wiki/Key:mofa) | 原付     | 原動機付自転車 |
+| [motorcycle](https://wiki.openstreetmap.org/wiki/JA:Key:motorcycle) | 二輪     | 二輪の自動車及び原動機付自転車 |
+| [moped](https://wiki.openstreetmap.org/wiki/JA:Key:moped) | 小二輪   | 道路交通法施行規則第二十四条第一項に規定する小型二輪車及び原動機付自転車 |
+| [bicycle](https://wiki.openstreetmap.org/wiki/JA:Key:bicycle) | 自転車   | 普通自転車 |
 | *trolleybus*    | トロリー | トロリーバス |
-| psv             | 乗用     | 専ら人を運搬する構造の自動車 |
+| [psv](https://wiki.openstreetmap.org/wiki/JA:Key:psv) | 乗用     | 専ら人を運搬する構造の自動車 |
 | *psv:l*         | 大乗     | 大型乗用自動車 |
 | *psv:m*         | 中乗     | 中型乗用自動車 |
 | *psv:xm*        | 特定中乗 | 特定中型乗用自動車 |
@@ -36,19 +36,24 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 | bus             | バス     | ![bus](55px-Japan_road_sign_503-B_Buses.png) 大型乗用自動車及び特定中型乗用自動車 |
 | *bus:l*         | 大型バス | 乗車定員が三〇人以上の大型乗用自動車 |
 | minibus         | マイクロ | 大型バス以外の大型乗用自動車及び特定中型乗用自動車 |
-| tourist_bus     | (観光バス) |  |
+| [tourist_bus](https://wiki.openstreetmap.org/wiki/Key:tourist_bus) | (観光バス) |  |
 | *route_bus*     | 路線バス | 道路運送法（昭和二十六年法律第百八十三号）第九条第一項に規定する一般乗合旅客自動車運送事業者による同法第五条第一項第三号に規定する路線定期運行の用に供する自動車 |
 | *psv:normal*    | 普乗     | 普通乗用自動車 |
-| taxi            | タクシー | 道路運送法第三条第一号ハに規定する一般乗用旅客自動車運送事業の用に供する自動車 |
-| goods           | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
+| [taxi](https://wiki.openstreetmap.org/wiki/JA:Key:psv) | タクシー | 道路運送法第三条第一号ハに規定する一般乗用旅客自動車運送事業の用に供する自動車 |
+| [goods](https://wiki.openstreetmap.org/wiki/Key:goods) | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
 | *goods:l*       | 大貨     | 大型乗用自動車以外の大型自動車 |
-| hgv             | 大貨等   | ![truck](55px-Japan_road_sign_503-B_Tracks.png) 大型乗用自動車以外の大型自動車、特定中型乗用自動車以外の特定中型自動車及び大型特殊自動車 |
+| [hgv](https://wiki.openstreetmap.org/wiki/JA:Key:hgv) | 大貨等   | ![truck](55px-Japan_road_sign_503-B_Tracks.png) 大型乗用自動車以外の大型自動車、特定中型乗用自動車以外の特定中型自動車及び大型特殊自動車 |
 | *goods:m*       | 中貨     | 中型乗用自動車以外の中型自動車 |
 | *goods:xm*      | 特定中貨 | 特定中型乗用自動車以外の特定中型自動車 |
 | *goods:ms*      | 準中貨   | 準中型乗用自動車以外の準中型自動車 |
 | *goods:normal*  | 普貨     | 普通乗用自動車以外の普通自動車 |
-| hgv_articulated | けん引   | 重被牽 引車を牽 引している牽 引自動車 |
-| disabled        | 標章車   | 高齢運転者等標章自動車 |
+| [hgv_articulated](https://wiki.openstreetmap.org/wiki/Key:hgv_articulated) | けん引   | 重被牽 引車を牽 引している牽 引自動車 |
+| [disabled](https://wiki.openstreetmap.org/wiki/Key:disabled) | 標章車   | 高齢運転者等標章自動車 |
+
+* [motor_vehicle](https://wiki.openstreetmap.org/wiki/JA:Key:motor_vehicle)
+
+* [foot](https://wiki.openstreetmap.org/wiki/JA:Key:foot)
+
 
 * *斜体*は日本独自に新設するTag
 
