@@ -38,9 +38,9 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃
 　　　　　　　　　┣━ 14. taxi=*      「タクシー」　一般乗用旅客自動車運送事業の用に供する自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ 15. moped=*,mofa=*,motorcycle=*「二輪」 二輪の自動車及び原動機付自転車
+　　　　　　　　　┣━ 15. motorcycle「二輪」 二輪の自動車及び原動機付自転車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 16. motorcycle　「自二輪」　大型自動二輪車、普通自動二輪車
+　　　　　　　　　┃　　┣━ 16. (motorbike)　「自二輪」　大型自動二輪車、普通自動二輪車
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ 17. moped　「小二輪」　小型二輪車、原動機付自転車
 　　　　　　　　　┃　　　　　┃
@@ -80,11 +80,11 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┣━ 32.motor_car:xm 「特定中型」 特定中型自動車
 　　　　　　　　　┃　　┃　　┃
-　　　　　　　　　┃　　┃　　┣━ 33.hgv:xm  「特定中貨」　
+　　　　　　　　　┃　　┃　　┣━ 33.hgv:xm  「特定中貨」　特定中型貨物
 　　　　　　　　　┃　　┃　　┃
 　　　　　　　　　┃　　┃　　┗━ 34.psv:xm 「特定中乗」 特定中型乗用自動車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 35.hgv 「大貨等」　
+　　　　　　　　　┃　　┣━ 35.hgv 「大貨等」[トラックマーク] 　
 　　　　　　　　　┃　　┃　　┃
 　　　　　　　　　┃　　┃　　┣━ 20.hgv:l  「大貨」　
 　　　　　　　　　┃　　┃　　┃
@@ -140,7 +140,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　　　　┃
 　　　　　　　　　　　　┣━ 31.psv:m 「中乗」 中型乗用自動車
 　　　　　　　　　　　　┃
-　　　　　　　　　　　　┣━ 42.bus 「バス」 
+　　　　　　　　　　　　┣━ 42.bus 「バス」[バスマーク] 
 　　　　　　　　　　　　┃　　┃
 　　　　　　　　　　　　┃　　┗━ 26.psv:l 「大乗」 大型乗用自動車
 　　　　　　　　　　　　┃　　　　　┃
