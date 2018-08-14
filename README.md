@@ -78,9 +78,9 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 ┃
 ┗━ 3. vehicle=*    車両
 　　　┃
-　　　┣━ 4. bicycle=*     自転車
-　　　┃
 　　　┣━ 5. carriage=*    軽車両
+　　　┃　　┃
+　　　┃　　┗━ 4. bicycle=*     自転車
 　　　┃
 　　　┗━ 6. motor_vehicle 動力付き車両
 　　　　　　┃
