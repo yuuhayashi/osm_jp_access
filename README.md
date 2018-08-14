@@ -90,7 +90,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　┃
 　　　　　　┗━ 9. motorcar 自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ 10. hgv_caravan 「けん引」 重被牽引車をけん引しているけん引自動車
+　　　　　　　　　┣━ 10. hgv_articulated 「けん引」 重被牽引車をけん引しているけん引自動車
 　　　　　　　　　┃
 　　　　　　　　　┣━ 11. disabled 「標章車」 高齢運転者等、標章自動車
 　　　　　　　　　┃
@@ -98,11 +98,11 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　┃
 　　　　　　　　　┣━ 13. route_bus   「路線バス」　路線定期運行の用に供する自動車
 　　　　　　　　　┃
-　　　　　　　　　┣━ 14. taxi=*      「タクシー」　一般乗用旅客自動車運送事業の用に供する自動車
+　　　　　　　　　┣━ 14. taxi      「タクシー」　一般乗用旅客自動車運送事業の用に供する自動車
 　　　　　　　　　┃
 　　　　　　　　　┣━ 15. motorcycle「二輪」 二輪の自動車及び原動機付自転車
 　　　　　　　　　┃　　┃
-　　　　　　　　　┃　　┣━ 16. (motorbike)　「自二輪」　大型自動二輪車、普通自動二輪車
+　　　　　　　　　┃　　┣━ 16. motorbike　「自二輪」　大型自動二輪車、普通自動二輪車
 　　　　　　　　　┃　　┃
 　　　　　　　　　┃　　┗━ 17. moped　「小二輪」　小型二輪車、原動機付自転車
 　　　　　　　　　┃　　　　　┃
@@ -226,7 +226,7 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
  よく誤解されると思われる項目
 
 * 「路線バス」は「バス」を継承していません。つまり、「路線バス」は「バス」ではありません。（「大型」でもない）  
-このことにより、「バス」進入禁止どうろでも「路線バス」はその規制を受けません。
+このことにより、「バス」進入禁止でも「路線バス」はその規制を受けません。
 
 * 同様に「タクシー」は「中乗」「普乗」を継承していません。
 
@@ -235,8 +235,6 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 * 「二輪」と「自二輪」は同一ではありません。タグ的に区別する必要が有ります。
 
 * 「小二輪」は「原付」も含みます。
-
-* 
 
 
 ### マトリックス表
