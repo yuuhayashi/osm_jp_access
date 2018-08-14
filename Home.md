@@ -203,8 +203,8 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 
  | マーク        | 車両の種類          |
 |:-------------:|:--------------- | 
-| [truck](220px-Japan_road_sign_503-B_Tracks.png) | 大型貨物自動車と特定中型貨物自動車、大型特殊自動車 |
-| [bus](220px-Japan_road_sign_503-B_Buses.png) | 大型乗用自動車と特定中型乗用自動車 |
+| ![truck](110px-Japan_road_sign_503-B_Tracks.png) | 大型貨物自動車と特定中型貨物自動車、大型特殊自動車 |
+| ![bus](110px-Japan_road_sign_503-B_Buses.png) | 大型乗用自動車と特定中型乗用自動車 |
 
 
 ## 継承関係
