@@ -9,6 +9,68 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 
 [Japan tagging](https://wiki.openstreetmap.org/wiki/Japan_tagging) - [access](https://wiki.openstreetmap.org/wiki/JA:Key:access) - [Land-based transportation / 陸上交通](https://wiki.openstreetmap.org/wiki/JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A)
 
+ 	
+ | 提案するTag     | 略称     | 車両の種類          |
+|:---------------:|:--------:|:--------------- | 
+| motorcar       | 自動車    | 自動車 |
+| *motorcar:l*   | 大型     | 大型自動車 |
+| *motorcar:xl*  | 大型等   | 大型自動車、特定中型自動車及び大型特殊自動車 |
+| *motorcar:m*   | 中型     | 中型自動車 |
+| *motorcar:xm*  | 特定中型 | 特定中型自動車 |
+| *motorcar:ms*  | 準中型   | 準中型自動車 |
+| *motorcar:normal* | 普通  | 普通自動車 |
+| *hgv:x*         | 大特     | 大型特殊自動車 |
+| *motorbike*     | 自二輪   | 大型自動二輪車及び普通自動二輪車（道路交通法施行規則第二条の表備考の規定により二輪の自動車とみなされ、かつ、同表の大型自動二輪車又は普通自動二輪車に区分される三輪の自動車を含む。） |
+| *motorcar:kei* | 軽       | 長さが三・四〇メートル以下、幅が一・四八メートル以下、高さが二・〇〇メートル以下の普通自動車（内燃機関を原動機とする自動車にあつては、総排気量が〇・六六〇リットル以下のものに限る。） |
+| agricultural    | 小特     | 小型特殊自動車 |
+| mofa            | 原付     | 原動機付自転車 |
+| motorcycle      | 二輪     | 二輪の自動車及び原動機付自転車 |
+| moped           | 小二輪   | 道路交通法施行規則第二十四条第一項に規定する小型二輪車及び原動機付自転車 |
+| bicycle         | 自転車   | 普通自転車 |
+| *trolleybus*    | トロリー | トロリーバス |
+| psv             | 乗用     | 専ら人を運搬する構造の自動車 |
+| *psv:l*         | 大乗     | 大型乗用自動車 |
+| *psv:m*         | 中乗     | 中型乗用自動車 |
+| *psv:xm*        | 特定中乗 | 特定中型乗用自動車 |
+| *psv:ms*        | 準中乗   | 準中型乗用自動車 |
+| bus             | バス     | ![bus](55px-Japan_road_sign_503-B_Buses.png) 大型乗用自動車及び特定中型乗用自動車 |
+| *bus:l*         | 大型バス | 乗車定員が三〇人以上の大型乗用自動車 |
+| minibus         | マイクロ | 大型バス以外の大型乗用自動車及び特定中型乗用自動車 |
+| tourist_bus     | (観光バス) |  |
+| *route_bus*     | 路線バス | 道路運送法（昭和二十六年法律第百八十三号）第九条第一項に規定する一般乗合旅客自動車運送事業者による同法第五条第一項第三号に規定する路線定期運行の用に供する自動車 |
+| *psv:normal*    | 普乗     | 普通乗用自動車 |
+| taxi            | タクシー | 道路運送法第三条第一号ハに規定する一般乗用旅客自動車運送事業の用に供する自動車 |
+| goods           | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
+| *goods:l*       | 大貨     | 大型乗用自動車以外の大型自動車 |
+| hgv             | 大貨等   | ![truck](55px-Japan_road_sign_503-B_Tracks.png) 大型乗用自動車以外の大型自動車、特定中型乗用自動車以外の特定中型自動車及び大型特殊自動車 |
+| *goods:m*       | 中貨     | 中型乗用自動車以外の中型自動車 |
+| *goods:xm*      | 特定中貨 | 特定中型乗用自動車以外の特定中型自動車 |
+| *goods:ms*      | 準中貨   | 準中型乗用自動車以外の準中型自動車 |
+| *goods:normal*  | 普貨     | 普通乗用自動車以外の普通自動車 |
+| hgv_articulated | けん引   | 重被牽 引車を牽 引している牽 引自動車 |
+| disabled        | 標章車   | 高齢運転者等標章自動車 |
+
+* *斜体*は日本独自に新設するTag
+
+
+ | マーク        | 車両の種類          |
+|:-------------:|:--------------- | 
+| ![truck](110px-Japan_road_sign_503-B_Tracks.png) | 「大貨等」 大型貨物自動車と特定中型貨物自動車、大型特殊自動車 |
+| ![bus](110px-Japan_road_sign_503-B_Buses.png) | 「バス」 大型乗用自動車と特定中型乗用自動車 |
+
+
+
+## 参考
+
+ * 日本の道路標識に示される車両種別は [道路標識、区画線及び道路標示に関する命令 （六）車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1) に規定されている。
+
+## 継承関係
+
+ * [車両種別の継承関係(クラス図)](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
+
+![車両種別の継承関係](https://github.com/yuuhayashi/osm_jp_access/raw/master/OSMaccess.class.png)  
+上記は、[車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの
+
 ```
 1. access=*
 ┃
@@ -156,65 +218,8 @@ Draft: OpenStreetMap Japan Key:access - Land-based transportation
 　　　　　　　　　　　　┃
 　　　　　　　　　　　　┗━ 40.psv:normal 「普乗」 普通乗用自動車
 ```
+* 番号は作成上の管理番号
 
-
-## 参考
-
- * 日本の道路標識に示される車両種別は [道路標識、区画線及び道路標示に関する命令 （六）車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1) に規定されている。
- 以下引用
- 	
- | 提案するTag     | 略称     | 車両の種類          |
-|:---------------:|:--------:|:--------------- | 
-| motorcar       | 自動車    | 自動車 |
-| *motorcar:l*   | 大型     | 大型自動車 |
-| *motorcar:xl*  | 大型等   | 大型自動車、特定中型自動車及び大型特殊自動車 |
-| *motorcar:m*   | 中型     | 中型自動車 |
-| *motorcar:xm*  | 特定中型 | 特定中型自動車 |
-| *motorcar:ms*  | 準中型   | 準中型自動車 |
-| *motorcar:normal* | 普通  | 普通自動車 |
-| *hgv:x*         | 大特     | 大型特殊自動車 |
-| *motorbike*     | 自二輪   | 大型自動二輪車及び普通自動二輪車（道路交通法施行規則第二条の表備考の規定により二輪の自動車とみなされ、かつ、同表の大型自動二輪車又は普通自動二輪車に区分される三輪の自動車を含む。） |
-| *motorcar:kei* | 軽       | 長さが三・四〇メートル以下、幅が一・四八メートル以下、高さが二・〇〇メートル以下の普通自動車（内燃機関を原動機とする自動車にあつては、総排気量が〇・六六〇リットル以下のものに限る。） |
-| agricultural    | 小特     | 小型特殊自動車 |
-| mofa            | 原付     | 原動機付自転車 |
-| motorcycle      | 二輪     | 二輪の自動車及び原動機付自転車 |
-| moped           | 小二輪   | 道路交通法施行規則第二十四条第一項に規定する小型二輪車及び原動機付自転車 |
-| bicycle         | 自転車   | 普通自転車 |
-| *trolleybus*    | トロリー | トロリーバス |
-| psv             | 乗用     | 専ら人を運搬する構造の自動車 |
-| *psv:l*         | 大乗     | 大型乗用自動車 |
-| *psv:m*         | 中乗     | 中型乗用自動車 |
-| *psv:xm*        | 特定中乗 | 特定中型乗用自動車 |
-| *psv:ms*        | 準中乗   | 準中型乗用自動車 |
-| bus             | バス     | ![bus](55px-Japan_road_sign_503-B_Buses.png) 大型乗用自動車及び特定中型乗用自動車 |
-| *bus:l*         | 大型バス | 乗車定員が三〇人以上の大型乗用自動車 |
-| minibus         | マイクロ | 大型バス以外の大型乗用自動車及び特定中型乗用自動車 |
-| tourist_bus     | (観光バス) |  |
-| *route_bus*     | 路線バス | 道路運送法（昭和二十六年法律第百八十三号）第九条第一項に規定する一般乗合旅客自動車運送事業者による同法第五条第一項第三号に規定する路線定期運行の用に供する自動車 |
-| *psv:normal*    | 普乗     | 普通乗用自動車 |
-| taxi            | タクシー | 道路運送法第三条第一号ハに規定する一般乗用旅客自動車運送事業の用に供する自動車 |
-| goods           | 貨物     | 大型乗用自動車以外の大型自動車、中型乗用自動車以外の中型自動車、準中型乗用自動車以外の準中型自動車及び普通乗用自動車以外の普通自動車 |
-| *goods:l*       | 大貨     | 大型乗用自動車以外の大型自動車 |
-| hgv             | 大貨等   | ![truck](55px-Japan_road_sign_503-B_Tracks.png) 大型乗用自動車以外の大型自動車、特定中型乗用自動車以外の特定中型自動車及び大型特殊自動車 |
-| *goods:m*       | 中貨     | 中型乗用自動車以外の中型自動車 |
-| *goods:xm*      | 特定中貨 | 特定中型乗用自動車以外の特定中型自動車 |
-| *goods:ms*      | 準中貨   | 準中型乗用自動車以外の準中型自動車 |
-| *goods:normal*  | 普貨     | 普通乗用自動車以外の普通自動車 |
-| hgv_articulated | けん引   | 重被牽 引車を牽 引している牽 引自動車 |
-| disabled        | 標章車   | 高齢運転者等標章自動車 |
-
- | マーク        | 車両の種類          |
-|:-------------:|:--------------- | 
-| ![truck](110px-Japan_road_sign_503-B_Tracks.png) | 「大貨等」 大型貨物自動車と特定中型貨物自動車、大型特殊自動車 |
-| ![bus](110px-Japan_road_sign_503-B_Buses.png) | 「バス」 大型乗用自動車と特定中型乗用自動車 |
-
-
-## 継承関係
-
- * [車両種別の継承関係(クラス図)](http://surveyor.mydns.jp/gitbucket/yuu/osm_jp_access/raw/master/OSMaccess.class.violet.html)  
-
-![車両種別の継承関係](https://github.com/yuuhayashi/osm_jp_access/raw/master/OSMaccess.class.png)  
-上記は、[車両の種類の略称](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=335M50004002003&openerCode=1)の記載をもとに属性の継承関係を表したもの
 
 ### 継承関係の注意点
 
@@ -292,16 +297,11 @@ access=* （カテゴリ: すべての陸上交通）
 
 * 日本では「自転車」は「軽車両」に含まれるが、[`bicycle`]と[`carriage`]は別物
 
-* 日本の「自動車」と[`motor_vehicle`]との違い： 日本では動力付き車両であっても「自動車」とみなさないもの（トロリーバス、路面電車など）が存在するため、提案では「`motor_car`（自動車）」と独自タグを新設しています。
-
 * 二輪車について、日本の場合は、`motorcycle`,`moped`,`mofa` に階層関係が存在します。
 
-* 「自二輪」に`motorcycle`を割り当てました。「二輪」には独自タグを新設するのを避けるため、`motorcycle`,`moped`,`mofa`を列記することとしましたが、適切なワードを新設したほうが良いのではないでしょうか？
+* 「二輪」には`motorcycle`、「自二輪」に`motorbike`を割り当てました。
 
- * その他のタグ列記項目
-    - 「二輪」→ `motorcycle`,`moped`,`mofa`
-    - 「大型等」→  motor_car:l=*,motor_car:xm=*,motor_car:xl=*
-    - 「貨物」→  hgv=*,goods=*
+* WorldWideでは、3.5t以上の大型トラック(`hgv`)は`goods`に含みませんが、大型車を含む「貨物」に`goods`を割当ました。`hgv`は現実の出現頻度が高い「大貨等」へ割り当てを行っています。  このあたりの割当は議論の余地があると思われます。
 
 -------
 
