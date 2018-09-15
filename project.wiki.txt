@@ -1,0 +1,100 @@
+
+= JA:Key:Acces  / JA:Access - 交通手段による制限 - 陸上交通 車両種別アクセス =
+
+= Goals / 目的 =
+
+Draft: OpenStreetMap Japan Key:access - Land-based transportation  
+日本の「車両別アクセスタグ」の提案
+
+[[Japan_tagging|Japan tagging]] - [[JA:Key:access|access]] - [Land-based transportation / [[JA:Key:access#.E9.99.B8.E4.B8.8A.E4.BA.A4.E9.80.9A|陸上交通]]]
+
+を日本の交通標識の表記に合わせて独自に定義する。
+
+
+==日本独自タグの必要性==
+
+日本国内の多くの道路交通標識（制限標識や許可標識）には
+
+
+=Schedule / スケジュール=
+
+* [[プロジェクトページ]]を作成して公開
+
+** 提案するタグの提示
+
+** 例題写真の募集とタグ付けの例を掲載する
+
+* Talk-jaへの公示
+
+* 議論期間（修正期間）をへて[[Talk:Japan tagging]]に掲載
+
+
+
+=提案するタグ=
+
+===インポート種別===
+
+
+==Data Preparation / データの準備==
+
+===Data Reduction & Simplification / データの縮小、簡素化===
+
+===Tagging Plans / タグ定義計画===
+
+===Changeset Tags / 変更セットへのタグ付け===
+
+===Data Transformation / データ形式変換===
+
+===Data Transformation Results / データ変換結果===
+
+
+
+==Data Merge Workflow データマージ作業計画==
+
+
+===Team Approach / チーム編成===
+
+変換プログラムの作成は、[[user:hayashi|hayashi]]が行います。
+
+生成されたインポートデータの検証のために、地元のマッパーの協力が必要です。協力者を募集します。
+
+===References / リファレンス===
+
+* [https://www.kotsu.city.nagoya.jp/jp/pc/ABOUT/TRP0000773/TRF0009630..csv 名古屋市オープンデータ 市バス停留所一覧(平成28年4月1日）]
+
+* [http://www.city.nagoya.jp/somu/page/0000056954.html 名古屋市、オープンデータ利用のご案内]
+
+* [http://surveyor.mydns.jp/gitweb/?p=osmCoverage.git;a=summary 変換プログラム]
+
+
+===Workflow / ワークフロー===
+
+* 手順：
+
+
+
+
+===Conflation / 既存データとの整合性維持===
+
+
+
+==QA / 品質管理==
+
+* 実行前に「変換プログラム」が確実に動作することを十分に検証する。 / yet
+
+* 既存バス停付近にインポートデータが生成されていないことをJOSMで開いて確認する。 / yet
+
+* インポートの実行と検証は、現地を確認可能な地元のマッパーが行う。 / yet
+
+
+== 脚注 ==
+<references/>
+
+[[Category:JA:Japan tagging]]
+[[Category:Japan]]
+[[Category:JA:自転車|access]]
+[[Category:JA:公共交通機関|access]]
+[[Category:JA:経路探索用タグ|access]]
+[[Category:JA:時間データ規格|access]]
+
+
